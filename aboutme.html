@@ -1,106 +1,126 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Resume</title>
-<style>
+    <title>Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
 
-  img {
-  float: right;
-}
+        img {
+            float: left;
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* To maintain aspect ratio */
+            margin-right: 20px;
+        }
 
-   .shadowbox {
-  width: 21cm;
-        height: 20.7cm;
-        margin: 40mm 55mm 40mm 55mm;
-  border: 1px solid #333;
-  box-shadow: 8px 8px 5px #444;
-  padding: 48px 60px;
-  background-image: linear-gradient(200deg, #fff, #ddd 50%, #ccc);
-}
+        .shadowbox {
+            width: 21cm;
+            margin: 20mm auto;
+            border: 1px solid #333;
+            box-shadow: 8px 8px 5px #444;
+            padding: 20px 30px;
+            background-image: linear-gradient(200deg, #fff, #ddd 50%, #ccc);
+        }
 
+        #name {
+            font-size: large;
+            font-weight: bold;
+        }
 
-#name {
-  display: inline;
-  font-size: large;
-  font-weight: bold;
+        #contact {
+            margin-top: 10px;
+        }
 
-}
+        .column {
+            width: 45%;
+            float: left;
+            padding: 10px;
+        }
 
-#contact {
-  display: inline;
-}
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
 
-.column {
-  float: left;
-  width: 35%;
-  padding: 10px;
- 
-}
+        h3 {
+            margin-top: 10px;
+        }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-</style>
+        ul ul {
+            margin-top: 5px;
+        }
 
+        p {
+            margin: 0;
+        }
+    </style>
 </head>
+
 <body>
-<div class="shadowbox">
-<img src="Patrick King.jpg" alt="me"><br> <a href="https://github.com/patter10/fffoc">Visit the GitHub Repository</a>
-<p id="name">Patrick King</p><br>
-<p id="contact">5 Halouver Creek<br>
-Belmopan City, Belize<br>
-   Phone Number: 661-9546<br>
-   Email: ekingpatrick@gmail.com</p>
+    <div class="shadowbox">
+        <img src="Patrick King.jpg" alt="me">
+        <a href="https://github.com/patter10/fffoc">Visit the GitHub Repository</a>
+        <p id="name">Patrick King</p>
+        <p id="contact">5 Halouver Creek<br>
+            Belmopan City, Belize<br>
+            Phone Number: 661-9546<br>
+            Email: ekingpatrick@gmail.com
+        </p>
 
-<h3>OBJECTIVE:</h3>
-<p>To acquire valuable knowledge and skills to complement
-those that I have learned from school in an actual job environment.
-In return, I ofer my service and determination to be an asset to your
-company throught the duration of my employment.</p>
-<h3>EDUCATION:</h3>
+        <h3>OBJECTIVE:</h3>
+        <p>To acquire valuable knowledge and skills to complement those that I have learned from school in an actual job
+            environment. In return, I offer my service and determination to be an asset to your company throughout the
+            duration of my employment.</p>
 
-<div class="row">
-  <div class="column">
-   
-    <p>2023 - Present University of Belize <br>
-<p>2019 - 2023 Belmopan Methodist Highschool <br>
-<p>2012 - 2019 The Shepherds Academy </p>
-  </div>
-  <div class="column">
-    <h3></h3>
-    <p> Information Technology <br></p>
-<p> Business Major <br></p>
+        <h3>EDUCATION:</h3>
+        <div class="row">
+            <div class="column">
+                <p>2023 - Present University of Belize</p>
+                <p>2019 - 2023 Belmopan Methodist Highschool</p>
+                <p>2012 - 2019 The Shepherds Academy</p>
+            </div>
+            <div class="column">
+                <h3></h3>
+                <p>Information Technology</p>
+                <p>Business Major</p>
+            </div>
+        </div>
 
-  </div>
-</div>
-
-<h3>SKILLS</h3>
-<ul>
-    <li>Web Development:
-        <ul><br>
-            <li>HTML</li>
-            <li>CSS</li>
-<li>JavaScript</li>
-<li>GitHub</li>
- </ul>
-    </li><br>
-    <li>Programming:</li>
-<ul><br>
-           
-<li>C++</li>
-<li>JavaScript</li>
-<li>Python</li>
-
+        <h3>SKILLS</h3>
+        <ul>
+            <li>Web Development:
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GitHub</li>
+                </ul>
+            </li>
+            <li>Programming:
+                <ul>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </li>
         </ul>
-</ul>
-<h3>REFERENCE:</h3>
-<p>Dr. Kieran Ryan University of Belize 616-6666 <br>
-   VERNELLE SYLVESTER, MSc Programming I teacher University of Belize ###-####<br>
-   Mr. Leron Cayetano High Recommedation ###-####</p>
-</div>
+
+        <h3>REFERENCE:</h3>
+        <p>Dr. Kieran Ryan University of Belize 616-6666<br>
+            VERNELLE SYLVESTER, MSc Programming I teacher University of Belize <br>
+            Mr. Leron Cayetano High Recommendation 
+        </p>
+    </div>
 </body>
+
 </html>
